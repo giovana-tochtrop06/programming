@@ -9,11 +9,12 @@ html, body {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     position: fixed;
     z-index: 2;
     background-color: #121212;
     border-bottom: 1px solid #1d1d1d;
-    height: 88px;
+    height: 80px;
 }
 
 .container {
@@ -21,5 +22,33 @@ html, body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: whitesmoke;
 }
 
+.logo-name {
+    font-weight: 700;
+    font-size: 2rem;
+    border-right: 2px solid #4F4287;
+    padding-right: 10px;
+}
+
+.logo-name span {
+    color: #4F4287;
+    padding-bottom: 2px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li a{
+    color: whitesmoke;
+    font-weight: 700;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all .2s ease;
+    /* border-bottom: 1px solid #6656ad; */
+}
